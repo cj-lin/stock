@@ -7,5 +7,11 @@ start: 2010-01-01
 end: 2020-08-31
 
 functions:
-  - MA
-  - MACD
+  - funcname: MA
+    suffix: ''
+    params: {}
+  - funcname: MACD
+    suffix: '10_30'
+    params:
+        fastperiod: 10
+        slowperiod: 30
